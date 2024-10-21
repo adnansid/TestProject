@@ -16,3 +16,5 @@ def test_registration(driver):
     driver.maximize_window()
     time.sleep(5)
     driver.find_element(By.CSS_SELECTOR,"#work-2").click()
+     
+    
